@@ -27,12 +27,12 @@ header > .image-container {
 header > .image-container a {
     display: flex;
     align-items: center;
-    background-color: inherit; /* Ensure background color is inherited */
+    background-color: inherit;
 }
 
 header > .image-container a img {
     width: 30px;
-    background-color: transparent; /* Ensure image background color is transparent */
+    background-color: transparent;
 }
 
 .content {
@@ -54,6 +54,8 @@ header > .image-container a img {
     background-color: black;
     display: block;
     margin: 0 auto;
+    box-shadow: -15px 15px 15px rgba(0, 0, 0, 0.3);
+    border-radius: 10px 10px 0 0;
 }
 
 a {
@@ -67,13 +69,15 @@ a {
         padding: 10px 0;
         width: 100%;
         box-sizing: border-box;
+        box-shadow: -15px 15px 15px rgba(0, 0, 0, 0.3);
+        border-radius: 0 0 10px 10px;
     }
     hr{
         margin-top: 80px;
         border: 3px solid #222222;
     }
     .linija{
-        border-left: 6px solid #222222;
+        border-left: 6px solid #222222  ;
         margin-left: 80px;
         height: 1000px;
         margin-top: -105px;
@@ -123,4 +127,10 @@ a {
     font-family: "Merriweather", serif;
     font-weight: 400;
     font-style: normal;
+    }
+    footer{
+        background-color: #222222;
+        padding: 5px;
+        text-align: center;
+        color: white;
     }
